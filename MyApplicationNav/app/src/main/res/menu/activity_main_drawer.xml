@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_passbook"
+            android:icon="@drawable/passbook1"
+            android:title="Passbook" />
+        <item
+            android:id="@+id/nav_pers"
+            android:icon="@drawable/personal_acs1"
+            android:title="Personal A/cs." />
+        <item
+            android:id="@+id/nav_fin_calendar"
+            android:icon="@drawable/fin_calendar"
+            android:title="Finance Calendar" />
+        <item
+            android:id="@+id/nav_insurance"
+            android:icon="@drawable/insurance"
+            android:title="Insurance" />
+        <item
+            android:id="@+id/nav_atm"
+            android:icon="@drawable/atm_branch"
+            android:title="ATM/Branch" />
+
+    </group>
+</menu>
